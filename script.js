@@ -55,3 +55,12 @@
 
     document.querySelector("body").prepend(newHeading);
 }
+
+// Delete Element
+{
+    // let para = document.querySelector("p");
+    // para.remove();
+    // let removeItem = document.querySelector("h1");
+    // removeItem.remove();
+
+}
