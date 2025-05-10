@@ -54,6 +54,17 @@
     newHeading.innerHTML = "<i> Sharier Islam </i>";
 
     document.querySelector("body").prepend(newHeading);
+
+
+    //Append Child
+
+    // let newp = document.createElement("p");
+    // let div1 = document.querySelector("#box");
+    // div1.appendChild(newp);
+// document.querySelector("#box").appendChild(document.createElement("p"));
+let newp = document.createElement("p");
+newp.innerText = "Hello";
+document.querySelector("#box").appendChild(newp);
 }
 
 // Delete Element
@@ -64,5 +75,20 @@
     removepara.remove();
     // let removeItem = document.querySelector("h1");
     // removeItem.remove();
+
+    //Remove Child
+
+    //To remove a specified element when knowing its parent node:
+     const parent = document.querySelector("#parent");
+     const child = document.querySelector("#child");
+    //  const remove = parent.removeChild(child);
+
+
+     // To remove a specified element without having to specify its parent node:
+
+     const node = document.querySelector("#child");
+     if(node.parentNode){
+        node.parentNode.removeChild(node);
+     }
 
 }
