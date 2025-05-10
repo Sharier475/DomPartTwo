@@ -58,8 +58,10 @@
 
 // Delete Element
 {
-    // let para = document.querySelector("p");
+    let para = document.querySelector("p");
     // para.remove();
+    let removepara = document.querySelector("#para2");
+    removepara.remove();
     // let removeItem = document.querySelector("h1");
     // removeItem.remove();
 
